@@ -7,15 +7,173 @@
     <title>militery</title>
 </head>
 <body>
-    <header>
+    <div class="dashboard">
+        <header class="header">
+            <div class="shield-container">
+                <div class="shield-inner">
+                </div>
+                <h1 class="main-title">SIGINT OPS</h1>
+                <div class="secure-badge"></div>
+          <span class="status-dot"></span> SECURE • ONLINE
+            </div>
+        </header>
+        <div class="main-display">
+            <div class='radar'>
+                <div class='sweep'></div>
+            </div>
+
+        <!-- <div class="radar-box">
+          <div class="radar-circle">
+            <div class="radar-axis-v"></div>
+            <div class="radar-axis-h"></div>
+            <div class="radar-sweep"></div>
+            <div class="dot d1"></div>
+            <div class="dot d2"></div>
+            <div class="dot d3"></div>
+          </div> -->
+        
+        <div class="stats-box">
+          <div class="stat-group">
+            <span class="stat-number">24</span>
+            <span class="stat-label">ACTIVE SIGNALS</span>
+          </div>
+          <div class="stat-group">
+            <span class="stat-number">07</span>
+            <span class="stat-label">PRIORITY ALERTS</span>
+          </div>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn">
+          <svg
+            class="icon-svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="white"
+            stroke-width="2"
+          ><polyline
+              points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+            ></polyline>
+          </svg>
+          New Brief
+        </button>
+        <button class="btn"><span class="icon">&lt; &gt;</span> Decode</button>
+        <button class="btn"><span class="icon">✈</span> Request Drone</button>
+      </div>
+      <section class="cards-grid">
+        <div class="card critical">
+          <div class="card-header">
+            <span class="badge">CRITICAL</span>
+            <span class="status-label">In Progress</span>
+          </div>
+          <h3 class="card-title">Operation Nightfall</h3>
+          <div class="progress-wrapper">
+            <div class="progress-track">
+              <div class="progress-fill" style="width: 65%"></div>
+            </div>
+            <span class="progress-value">65%</span>
+          </div>
+        </div>
+        <div class="card high">
+          <div class="card-header">
+            <span class="badge">HIGH</span>
+            <span class="status-label">Analyzing</span>
+          </div>
+          <h3 class="card-title">Signal Intercept Alpha</h3>
+          <div class="progress-wrapper">
+            <div class="progress-track">
+              <div class="progress-fill" style="width: 40%"></div>
+            </div>
+            <span class="progress-value">40%</span>
+          </div>
+        </div>
+
+        <div class="card medium">
+          <div class="card-header">
+            <span class="badge">MEDIUM</span>
+            <span class="status-label">Pending</span>
+          </div>
+          <h3 class="card-title">Asset Recovery</h3>
+          <div class="progress-wrapper">
+            <div class="progress-track">
+              <div class="progress-fill" style="width: 15%"></div>
+            </div>
+            <span class="progress-value">15%</span>
+          </div>
+        </div>
+
+        <div class="card high">
+          <div class="card-header">
+            <span class="badge">HIGH</span>
+            <span class="status-label">Active</span>
+          </div>
+          <h3 class="card-title">Cyber Defense Grid</h3>
+          <div class="progress-wrapper">
+            <div class="progress-track">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+            <span class="progress-value">80%</span>
+          </div>
+        </div>
+      </section>
+       <div class="threat-overlay">
+        <div class="threat-content">
+          <span class="blinking-dot"></span>
+          <span class="threat-text">THREAT DETECTED</span>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <div class="nav-item active">
+          <span class="nav-icon">▤</span>
+          <span class="nav-text">Dashboard</span>
+        </div>
+
+        <div class="nav-item">
+          <span class="nav-icon">▤</span>
+          <span class="nav-text">Feed</span>
+        </div>
+
+        <div class="nav-item">
+          <span class="nav-icon">📄</span>
+          <span class="nav-text">Brief</span>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>
+
+
+
+
+        <!-- </div>
+
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <header class="header">
         <nav>
-            <div><a href="#"></a></div>
+            <div><img src="icon\shield.svg" alt=""></div>
             <h3>sigint ops</h3>
-            <div><button></button></div>
+            <div></div>
         </nav>
     </header>
-    <main>
-        <section>
+    <main class="conteiner">
+        <section class="center-pag">
             <div class='radar'>
                 <div class='sweep'></div>
             </div>
@@ -24,22 +182,22 @@
         <section>
             <div></div>
         </section>
-        <section>
+        <section class="box-item">
             <div></div>
             <div></div>
             <div></div>
             <div></div>
         </section>
-        <section>
+        <section class="border3">
             <div class="icon-point"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dot-icon lucide-dot"><circle cx="12.1" cy="12.1" r="1"/></svg></div>
-            <div>THREAT DETECTED</div>
+            <div class="text">THREAT DETECTED</div>
         </section>
         
     </main>
-    <footer>
+    <footer class="footer">
             <div></div>
             <div></div>
             <div></div>
         </footer>
 </body>
-</html>
+</html> -->
